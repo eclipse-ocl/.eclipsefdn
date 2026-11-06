@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('modeling.mdt.ocl', 'eclipse-ocl') {
+orgs.newOrg('modeling.ocl', 'eclipse-ocl') {
   settings+: {
     description: "",
     name: "Eclipse OCL",
